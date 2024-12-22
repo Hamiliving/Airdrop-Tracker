@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto Airdrop Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>CryptoTraderLab Airdrop Tracker</h1>
+  </header>
+  <main>
+    <form id="airdrop-form">
+      <input type="text" id="airdrop-name" placeholder="Airdrop Name" required>
+      <input type="url" id="airdrop-link" placeholder="Airdrop Link" required>
+      <input type="date" id="start-date" required>
+      <input type="date" id="deadline" required>
+      <textarea id="notes" placeholder="Notes (optional)"></textarea>
+      <button type="submit">Add Airdrop</button>
+    </form>
+    <section id="airdrop-list">
+      <!-- List of airdrops will be dynamically added here -->
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
